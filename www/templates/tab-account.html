@@ -1,21 +1,10 @@
 <ion-view view-title="Account">
-    <ion-content>
-        <ion-list>
-            <ion-toggle  ng-model="settings.enableFriends">
-                Activar GPS
-            </ion-toggle>
-            <ion-toggle  ng-model="settings.familiares"  ng-click="">
-                Config. Familiares
-            </ion-toggle>
-            <div class="list" id="familiares">
-                <a class="item padding-left30" href="#">
-                    <h2>Hector Suazo</h2>
-                    <p>
-                        <span><i class="ion-ios-telephone-outline"></i> 9999</span>
-                        <span><i class="ion-ios-email-outline"></i> hector@hotmail.com</span>
-                    </p>
-                </a>
-            </div> 
-        </ion-list>
-    </ion-content>
+
+  <ion-content>
+    <ion-list>
+    <ion-toggle  ng-model="settings.notifyPolice">
+        Notificar a la policia
+    </ion-toggle>
+    </ion-list>
+  </ion-content>
 </ion-view>
